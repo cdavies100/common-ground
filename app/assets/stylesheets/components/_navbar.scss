@@ -26,6 +26,10 @@
 .navbar-cg-brand img {
   height: 50px;
   padding-top: 10px;
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
 }
 .cg-center-text {
   margin: 0;
@@ -65,7 +69,9 @@
   font-size: 14px;
 }
 .navbar-cg-link:hover {
-  color: #da552f;
+  // color: #da552f;
+  color: #616668;
+  opacity: 0.7;
   text-decoration: none;
 }
 
