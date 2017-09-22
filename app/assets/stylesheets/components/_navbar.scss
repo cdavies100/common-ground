@@ -37,9 +37,18 @@
 }
 
 /* Logo */
-.navbar-cg-brand img {
+.navbar-cg-brand-small img {
   height: 50px;
   padding-top: 10px;
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
+}
+.navbar-cg-brand-big img {
+  height: 65px; // bigger logo on mobile view as no common grond text below
+  padding-top: 10px;
+  margin-bottom: 2px;
   opacity: 0.7;
   &:hover {
     opacity: 1;

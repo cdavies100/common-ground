@@ -1,9 +1,16 @@
 <div class="navbar-cg">
   <!-- Logo -->
   <div class="logo-header">
-    <%= link_to root_path, class: "navbar-cg-brand" do %>
-      <%= image_tag "commongroundlogoblack.png" %>
-    <% end %>
+    <div class="hidden-xs">
+      <%= link_to root_path, class: "navbar-cg-brand-small" do %>
+        <%= image_tag "commongroundlogoblack.png" %>
+      <% end %>
+    </div>
+    <div class="hidden-sm hidden-md hidden-lg">
+      <%= link_to root_path, class: "navbar-cg-brand-big" do %>
+        <%= image_tag "commongroundlogoblack.png" %>
+      <% end %>
+    </div>
   </div>
 
 
