@@ -20,7 +20,7 @@
  position: absolute;
  left:25%;
  top: 5%;
- opacity: 0.9;
+ opacity: 0.8;
   h2 {
     flex: 1 1 auto;
     //max-font-size: 25px;
@@ -43,7 +43,7 @@
   flex: 1 1 auto;
   padding: 5px 10px;
   &:hover {
-    opacity: 0.9;
+    opacity: 0.8;
   }
   a {
     color: $cg-white !important;
