@@ -26,6 +26,11 @@
   color: $cg-space;
   padding: 20px;
   margin-right: 15px;
+  img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
 }
 .about-pic {
   // background-image: url("about-pic.jpg");
