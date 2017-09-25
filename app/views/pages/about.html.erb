@@ -1,7 +1,8 @@
 <div class="about-bkg">
 
-  <div class="about-content">
-    <div class="about-textbox text-center">
+  <!-- Desktop view -->
+  <div class="d-about-content hidden-xs">
+    <div class="d-about-textbox text-center">
       <%= image_tag("CG-rock.jpg", :alt => "CG rock") %>
 
       <h2>WEAR ME OUT</h2>
@@ -12,7 +13,26 @@
       </p>
     </div>
 
-    <div class="about-pic">
+    <div class="d-about-pic">
+      <%= image_tag("about-pic.jpg", :alt => "Model") %>
+    </div>
+
+  </div>
+
+  <!-- Mobile view -->
+  <div class="m-about-content hidden-sm hidden-md hidden-lg">
+    <div class="m-about-textbox text-center">
+      <%= image_tag("CG-rock.jpg", :alt => "CG rock") %>
+
+      <h2>WEAR ME OUT</h2>
+      <p>Common Ground was founded <br>
+         Common Ground was founded <br>
+         Common Ground was founded <br>
+         Common Ground was founded <br>
+      </p>
+    </div>
+
+    <div class="m-about-pic">
       <%= image_tag("about-pic.jpg", :alt => "Model") %>
     </div>
 
