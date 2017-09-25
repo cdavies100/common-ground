@@ -21,13 +21,13 @@
         <a href="#" id="social-space"><i class="fa fa-facebook-square"></i></a>
       </div>
       <div>
-      <%= link_to "LOOKBOOK", "#", class: "navbar-cg-item navbar-cg-link" %>
+      <%= link_to "LOOKBOOK", lookbook_path, class: "navbar-cg-item navbar-cg-link" %>
       </div>
       <div class="cg-center-text">
-      <%= link_to "COMMON GROUND", "#", class: "navbar-cg-item navbar-cg-link" %>
+      <%= link_to "COMMON GROUND", about_path, class: "navbar-cg-item navbar-cg-link" %>
       </div>
       <div>
-      <%= link_to "SHOP", "#", class: "navbar-cg-item navbar-cg-link" %>
+      <%= link_to "SHOP", products_path, class: "navbar-cg-item navbar-cg-link" %>
       </div>
 
 
@@ -76,9 +76,19 @@
       <div class="dropdown text-center">
         <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
         <ul class="dropdown-menu dropdown-menu-right navbar-cg-dropdown-menu">
-          <li><a href="#">Some mobile link</a></li>
-          <li><a href="#">Other one</a></li>
-          <li><a href="#">Other one</a></li>
+          <!-- <li><a href="#">About CG</a></li> -->
+          <li>
+            <%= link_to "Shop", products_path, class: "navbar-cg-item navbar-cg-link" %>
+          </li>
+          <li>
+            <%= link_to "Lookbook", lookbook_path, class: "navbar-cg-item navbar-cg-link" %>
+          </li>
+          <li>
+            <%= link_to "About CG", about_path, class: "navbar-cg-item navbar-cg-link" %>
+          </li>
+          <li>
+            <%= link_to "My account", "#", class: "navbar-cg-item navbar-cg-link" %>
+          </li>
         </ul>
       </div>
     </div>
