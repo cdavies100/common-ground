@@ -1,0 +1,29 @@
+.about-bkg {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.1) 50%), url("rock-bkg.JPG");
+  opacity: 0.6;
+  background-position: center;
+  background-size: cover; // best for resizing
+  background-repeat: no-repeat;
+  height: calc(100vh - 75px); // takes into account navbar height
+  width: auto;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+
+  padding: 20px;
+}
+
+.about-textbox {
+  background-color: $cg-white;
+  opacity: 0.8;
+  border-radius: 5px;
+  color: $cg-space;
+}
+.about-pic {
+  background-image: url("about-pic.jpg");
+  background-position: center;
+  background-size: cover; // best for resizing
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 200px;
+}
