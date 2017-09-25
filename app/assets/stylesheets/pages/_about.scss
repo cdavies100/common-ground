@@ -1,6 +1,7 @@
 .about-bkg {
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.1) 50%), url("rock-bkg.JPG");
-  opacity: 0.6;
+  // background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 50%), url("rock-bkg.JPG"); // dark background filter
+  background-image: linear-gradient(-225deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.7) 50%), url("rock-bkg.JPG"); //light background filter
+
   background-position: center;
   background-size: cover; // best for resizing
   background-repeat: no-repeat;
@@ -13,17 +14,29 @@
   padding: 20px;
 }
 
+.about-content {
+  display: flex;
+  flex-direction: row;
+}
+
 .about-textbox {
   background-color: $cg-white;
   opacity: 0.8;
   border-radius: 5px;
   color: $cg-space;
+  padding: 20px;
+  margin-right: 15px;
 }
 .about-pic {
-  background-image: url("about-pic.jpg");
-  background-position: center;
-  background-size: cover; // best for resizing
-  background-repeat: no-repeat;
-  height: 60vh;
-  width: 200px;
+  // background-image: url("about-pic.jpg");
+  // background-position: center;
+  // background-size: cover; // best for resizing
+  // background-repeat: no-repeat;
+  opacity: 0.9;
+  img {
+  height: 79vh;
+  width: auto;
+  border-radius: 5px;
+  filter: contrast(1.2);
+  }
 }
