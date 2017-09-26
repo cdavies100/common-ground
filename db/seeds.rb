@@ -7,3 +7,4 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 # products = Product.create([{title: 'Leggings' }, {title: 'Active top'}, {title: 'Sports bra'}])
+# will also need price, description, and to sort out size before seeding this
