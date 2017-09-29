@@ -28,6 +28,20 @@
   width: 100%;
   height: 80%;
   border-radius: 10px 10px 0 0;
+  background-position: center;
+  background-size: cover; // best for resizing
+  background-repeat: no-repeat;
+}
+.active-top-img {
+  background-image: url("active-top.jpg");
+}
+.leggings-img {
+  background-image: url("leggings.jpg");
+}
+.sports-bra-img {
+  background-image: url("sports-bra.JPG");
+  background-size: cover; // didn't inherit from card-img ?
+  filter: contrast(1.2);
 }
 
 .card-text-content {
