@@ -1,0 +1,29 @@
+.product-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.product-photo {
+  opacity: 0.9;
+  margin-right: 5px;
+  img {
+    height: 79vh;
+    width: auto;
+    border-radius: 5px;
+    filter: contrast(1.2);
+  }
+}
+.product-information {
+  background-color: $cg-white;
+  opacity: 0.8;
+  margin-left: 5px;
+  border-radius: 5px;
+  color: $cg-space;
+  padding: 20px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  height: 79vh;
+}
+.product-price {
+  color: $cg-green;
+}
